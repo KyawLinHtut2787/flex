@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,
+html{
+    height: 100%;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.media{
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 20px;
+}
+.img{
+    border-radius: 100%;
+    margin-right: 2em;
+}
+.media{
+    display: flex;
+}

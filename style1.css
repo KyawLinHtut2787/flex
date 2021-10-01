@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+     }
+nav{
+    background:red;
+    
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+}
+.nav-item{
+    padding:20px;
+}
